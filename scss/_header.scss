@@ -1,0 +1,39 @@
+nav {
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    ul {
+        padding-left: 0%;
+        margin-bottom: 0;
+        li{
+        display:inline-block;
+        width:200px;
+        height:40px;
+        background-color:#FFFBFD;
+        text-align:center;
+        color:#000;
+        position:relative;
+        z-index: 1;
+        justify-items: center;
+        transition: height 1s;
+            &:hover {
+                background-color: #E6E7E8;
+                color:#000;
+                ul {
+                    display:block;
+                    position:absolute;
+                    top:40px;
+                    bottom: 40px;
+                    right: 0px;
+                }
+             }
+            ul { display: none;}
+            a {
+                text-decoration:none;
+                color:inherit;
+                font-family: $font-principal;
+            }
+        }
+    }
+}

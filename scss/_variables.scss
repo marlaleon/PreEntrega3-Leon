@@ -1,0 +1,46 @@
+@font-face {
+    font-family: Raleway;
+    src: url(Fonts/Raleway-VariableFont_wght.ttf);
+}
+
+@font-face {
+    font-family: Engraver;
+    src: url(../Fonts/Engravers\ Old\ English\ Normal.ttf);
+}
+
+@font-face {
+    font-family: Sudesta ;
+    src: url(../Fonts/Sudestada.ttf);
+}
+
+@font-face {
+    font-family: FromWhere;
+    src: url(../Fonts/FromWhereYouAre.ttf);
+}
+
+@font-face {
+    font-family: soulmate;
+    src: url(../Fonts/Soulmate.ttf);
+}
+$font-principal: 'Raleway';
+$font-lover: "Soulmate";
+$font-reputation: "Engraver";
+$font-speaknow: "Sudesta";
+$font-1989: "Fromwhere";
+$main-color: #ffd9e9;
+$speaknow-color: #8e3b72;
+$t1989-color: #B8BFE2;
+$background: (
+    index: linear-gradient(#ffff, $main-color),
+    lover: linear-gradient(#fff, $main-color),
+    speaknow: linear-gradient(#fff, $speaknow-color),
+    t1989: linear-gradient(#fff, $t1989-color)    
+);
+$font-eras: (
+    lover: "Soulmate",
+    reputation: "Engraver",
+    speaknow: "Sudesta",
+    1989: "Fromwhere"
+)
+
+
